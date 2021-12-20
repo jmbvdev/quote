@@ -1,0 +1,44 @@
+body{
+  background-color: aquamarine;
+  display: flex;
+min-height: 100%;
+  justify-content: center;
+ justify-items: center;
+ position: relative;
+ top: 30vh;
+
+}
+.quote{
+  background-color: rgb(252, 252, 252);
+  width: 500px;
+  padding: 30px;
+}
+.quote .fa-quote-right{
+ position: relative;
+ font-size: 40px;
+ right: 30px;
+ top: 30px;
+ margin:10px;
+}
+.quote h2{
+ position: relative;
+ bottom: 20px;
+ font-style: italic;
+ left: 20px;
+}
+.quote b{
+  display: flex;
+  justify-content: end;
+  font-style: italic;
+}
+.quote button{
+ position: relative;
+ left: 90%;
+ top: 10px;
+ padding: 4px;
+ border-radius: 50%;
+ background-color: black;
+ color: blanchedalmond;
+ width: 25px;
+ border: none;
+}
