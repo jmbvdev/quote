@@ -1,16 +1,24 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 body{
   background-color: aquamarine;
-  display: flex;
 min-height: 100%;
-  justify-content: center;
- justify-items: center;
- position: relative;
- top: 30vh;
 
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .quote{
   background-color: rgb(252, 252, 252);
-  width: 500px;
+  width: 550px;
+  height: auto;
   padding: 30px;
 }
 .quote .fa-quote-right{
