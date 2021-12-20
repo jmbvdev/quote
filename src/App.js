@@ -20,10 +20,10 @@ function App() {
     <div className='container' style={{background}} >
 
     <div className='quote' style={{color:`${background}`}} >
-    <i class="fas fa-quote-right"></i>
+    <i className="fas fa-quote-right"></i>
     <Quote frase={mainQuotes.quote} background={background}/>
     <Autor autor= {mainQuotes.author} background={background}/>
-    <button onClick={getRadomquotes} style={{background}}><i class="fas fa-angle-right"></i></button>
+    <button onClick={getRadomquotes} style={{background}}><i className="fas fa-angle-right"></i></button>
     </div>
     </div>
     </>
